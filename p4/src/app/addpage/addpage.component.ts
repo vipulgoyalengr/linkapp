@@ -12,12 +12,6 @@ export class AddpageComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  CKEDITOR.editorConfig=function (config){
-  			config.toolbar	=[
-  							{name:'clipboard',items:['Cut','Copy','Paste']
-  							}
-  			];
-  				
-  };
+  
 ckeditorContent:any;
 }
