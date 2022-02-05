@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login V2</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+<!--===============================================================================================-->	
+<style>
+ 
+.btn_fixed{
+									background:#e6e6e6; 
+									position:fixed;
+									bottom:50px;
+									right:30px;
+									padding:10px;
+									border-radius: 15px;
+					}
+					.gi-3x{font-size: 3em;}
+</style>
+
+<!--===============================================================================================-->
+</head>
+<body>
+				<ckeditor
+  [(ngModel)]="ckeditorContent">
+    <ckbutton [name]="'saveButton'"
+      [command]="'saveCmd'"
+      
+      [icon]="'save.png'"
+      [label]="'Save Document'"
+      [toolbar]="'clipboard,1'">
+    </ckbutton>
+</ckeditor>
+	<button type="button" class="btn_fixed btn-default btn-sm">
+          <span class="glyphicon glyphicon-eye-open gi-3x"></span>
+        </button> 
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<form class="login100-form validate-form">
+					<span class="login100-form-title p-b-26">
+						Add Your Links Here !!
+					</span>
+					
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button class="login100-form-btn">
+											 <i class="fa fa-plus fa-fw"></i>
+								Add More
+							</button>
+						</div>
+					</div>
+
+
+					
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="dropDownSelect1"></div>
+	
+<!--===============================================================================================-->
+	
+
+</body>
+</html>
